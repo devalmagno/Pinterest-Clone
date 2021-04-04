@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --dark-color: black;
+    --light-color: yellow;
+}
+
+#title {
+    font-size: 48px;
+    cursor: pointer;
+}
+
+#title .name {
+    transition: all 1s ease;
+}
+
+#title .name {
+    color: var(--light-color);
+    transform: translateX(-100%);
+}
